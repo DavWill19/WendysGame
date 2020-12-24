@@ -9,6 +9,11 @@
 		<canvas id="canvas" width="640" height="480">
 			<p>Your browser does not support the canvas element.</p>
         </canvas>
+        <div id="rap"style="display none;"><audio src="sounds/rest.mp3" 
+            autoplay="autoplay" loop="loop"></audio></div>
+            <audio id="myAudio">
+                <source src="sounds/marioremix.mp3" type="audio/mpeg">
+              </audio>
         <!-- Enjine Includes -->
         <script src="Enjine/core.js"></script>
         <script src="Enjine/gameCanvas.js"></script>
@@ -55,11 +60,10 @@
         <script src="code/winState.js"></script>
         <script src="code/mapState.js"></script>
         <script src="code/levelState.js"></script>
+        <script src="Enjine/musix.js"></script>
 
         <script src="code/music.js"></script>
 
         <script>$(document).ready(function() { new Enjine.Application().Initialize(new Mario.LoadingState(), 320, 240) });</script>
-        <div style="display none;"><audio src="sounds/mapmusic1.mp3" 
-        autoplay="autoplay" loop="loop"></audio></div>
     </body>
 </html>
