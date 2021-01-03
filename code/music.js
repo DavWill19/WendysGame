@@ -5,10 +5,10 @@
 var midifiles = {
 	"title" : "midi/title.mid",
 	"map" : "midi/map.mid",
-	"background" : "midi/background.mid",
-	"overground" : "midi/overground.mid",
-	"underground" : "midi/underground.mid",
-	"castle" : "midi/castle.mid",
+	"background" : "midi/background.mp3",
+	"overground" : "midi/overground.mp3",
+	"underground" : "midi/underground.mp3",
+	"castle" : "midi/castle.mp3",
 };
 
 Mario.PlayMusic = function(name) {

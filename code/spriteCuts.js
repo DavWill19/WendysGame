@@ -16,7 +16,7 @@ Mario.SpriteCuts = {
         return new Enjine.SpriteFont([], Enjine.Resources.Images["font"], 8, 8, this.GetCharArray(8));
     },
     
-    CreateGreenFont: function() {
+  CreateGreenFont: function() {
         return new Enjine.SpriteFont([], Enjine.Resources.Images["font"], 8, 8, this.GetCharArray(16));
     },
     
