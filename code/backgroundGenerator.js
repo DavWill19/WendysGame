@@ -2,6 +2,22 @@
 	Generates the backgrounds for a level.
 	Code by Rob Kleffner, 2011
 */
+const gif = document.querySelector('#gif');
+let canvas1 = document.querySelector('#canvas');
+gif.style.margin = "50px";
+
+gif.classList = ("animate__animated animate__pulse animate__infinite");
+canvas1.style.visibility = "hidden";
+
+
+
+function startGame1() {
+    gif.classList = ("animate__animated animate__zoomOut");
+    gif.remove();
+    canvas1.style.visibility = "visible";
+    canvas1.classList = ("canvas animate__animated animate__zoomIn");
+}
+setTimeout(startGame1, 3800);
 
 Mario.BackgroundGenerator = function(width, height, distant, type) {
     this.Width = width;
