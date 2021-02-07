@@ -1,5 +1,6 @@
 body {
-    border: 5px solid darkgrey;
+    border: 2px solid rgb(56, 47, 47);
+    box-shadow: 4px 3px 3px rgb(56, 47, 47);
     width: 640px;
     height: 480px;
     margin: auto;
